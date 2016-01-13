@@ -4,18 +4,18 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hello World | Mikit&#39;s Blog</title>
+  <title>使用Hexo写blog | Mikit&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
+  <meta name="description" content="Just for Record">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://mikit007.github.io/2015/11/14/hello-world/index.html">
+<meta property="og:title" content="使用Hexo写blog">
+<meta property="og:url" content="http://mikit007.github.io/2016/01/13/How-to-use-Hexo/index.html">
 <meta property="og:site_name" content="Mikit's Blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
-<meta property="og:updated_time" content="2015-11-14T15:55:08.602Z">
+<meta property="og:description" content="Just for Record">
+<meta property="og:updated_time" content="2016-01-13T14:43:20.347Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
+<meta name="twitter:title" content="使用Hexo写blog">
+<meta name="twitter:description" content="Just for Record">
   
     <link rel="alternative" href="/atom.xml" title="Mikit&#39;s Blog" type="application/atom+xml">
   
@@ -72,12 +72,16 @@
   </div>
 </header>
     <div class="outer">
-      <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+      <section id="main"><article id="post-How-to-use-Hexo" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2015/11/14/hello-world/" class="article-date">
-  <time datetime="2015-11-14T02:42:08.000Z" itemprop="datePublished">2015-11-14</time>
+    <a href="/2016/01/13/How-to-use-Hexo/" class="article-date">
+  <time datetime="2016-01-13T13:18:33.000Z" itemprop="datePublished">2016-01-13</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/linux/">linux</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -86,7 +90,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      使用Hexo写blog
     </h1>
   
 
@@ -94,44 +98,54 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+        <p><code>Just for Record</code></p>
+<hr>
 <a id="more"></a>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<p>搭建的过程略显繁琐，这里也不深入探讨搭建的过程，如果需要了解如何搭建Hexo，可以点击<a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">这里</a>；</p>
+<p>日常使用只需要下面三个步骤就可以完成blog的编写，生成及部署；<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> n <span class="comment">#写文章</span></span><br><span class="line">hexo g <span class="comment">#生成</span></span><br><span class="line">hexo d <span class="comment">#部署</span></span><br></pre></td></tr></table></figure></p>
+<h1 id="写文章">写文章</h1><p>执行下面new命令，会自动生成指定名称的文章至hexp/source/_posts/postName.md<br><figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> [layout] <span class="string">"postName"</span>	<span class="preprocessor">#新建文章</span></span><br></pre></td></tr></table></figure></p>
+<p>其中[<em>layout</em>]是可选参数，默认值为post；有哪些layout，请到scaffolds目录下查看，这些文件名称就是layout名称。当然也可以添加自己的layout，方法就是添加一个文件即可，同时也可以编辑现有的layout。</p>
+<h1 id="生成静态页面">生成静态页面</h1><p>辛苦写完blog，当然是要编译生成，并且查看效果；执行下面代码就可以生成静态页面至hexo/public目录下；<br><figure class="highlight gcode"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">ge</span><span class="label">nerate</span></span><br></pre></td></tr></table></figure></p>
+<p>命令也可以简化成：<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> n</span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p>命令必须在init目录下执行，否则不成功，但是也不会报错。<br>当你修改文章Tag或内容，不能正确重新生成内容，可以删除hexo/db.json后重试，还不行就到public目录删除对应的文件，重新生成。</p>
+</blockquote>
+<h1 id="本地预览">本地预览</h1><p>生成了静态页面，下一步就是浏览自己的成果，如果不预览一下就发布出去，可能会带来一些小麻烦；<br>执行下面的命令，可以启动本地服务，对文章进行预览调试。<br><figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">server</span></span><br></pre></td></tr></table></figure></p>
+<p>也可以简化成：<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> s</span><br></pre></td></tr></table></figure></p>
+<p>然后在浏览器输入<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a>就可以看到效果。</p>
+<h1 id="blog发布">blog发布</h1><p>上面的步骤都完成了，文章也ok了，那就发布吧！！！<br>使用下面的命令：<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> deploy</span><br></pre></td></tr></table></figure></p>
+<p>同样也可以简写成：<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title">hexo</span> d</span><br></pre></td></tr></table></figure></p>
+<hr>
+<hr>
+<h2 id="附录">附录</h2><p><strong> 常用命令： </strong><br><figure class="highlight axapta"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> <span class="string">"newpostname"</span> 		<span class="preprocessor">#新建文章</span></span><br><span class="line">hexo <span class="keyword">new</span> page <span class="string">"pagename"</span>	<span class="preprocessor">#新建页面</span></span><br><span class="line">hexo generate				<span class="preprocessor">#生成静态页面至public目录</span></span><br><span class="line">hexo <span class="keyword">server</span>					<span class="preprocessor">#开启预览访问端口(http://localhost:4000)</span></span><br></pre></td></tr></table></figure></p>
+<p><strong> 常用复合命令： </strong><br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy -<span class="keyword">g</span></span><br><span class="line">hexo server -<span class="keyword">g</span></span><br></pre></td></tr></table></figure></p>
+<p><strong> 简写： </strong><br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">n</span> == hexo new</span><br><span class="line">hexo <span class="keyword">g</span> == hexo <span class="keyword">generate</span></span><br><span class="line">hexo s == hexo server </span><br><span class="line">hexo <span class="keyword">d</span> == hexo deploy</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://mikit007.github.io/2015/11/14/hello-world/" data-id="cijcwqsb1000gu0lmbdr6ioep" class="article-share-link" data-share="baidu" data-title="Hello World">分享到</a>
+        <a data-url="http://mikit007.github.io/2016/01/13/How-to-use-Hexo/" data-id="cijcwqsb1000hu0lmkvsny8xg" class="article-share-link" data-share="baidu" data-title="使用Hexo写blog">分享到</a>
       
 
       
-        <a href="http://mikit007.github.io/2015/11/14/hello-world/#ds-thread" class="article-comment-link">评论</a>
+        <a href="http://mikit007.github.io/2016/01/13/How-to-use-Hexo/#ds-thread" class="article-comment-link">评论</a>
       
 
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/life/">life</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/">linux</a></li></ul>
+
     </footer>
   </div>
   
     
 <nav id="article-nav">
   
-    <a href="/2015/11/14/Git常用指令简介/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">下一篇</strong>
-      <div class="article-nav-title">
-        
-          Git常用指令简介
-        
-      </div>
-    </a>
   
+    <a href="/2015/11/15/introduction-for-UAV/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">上一篇</strong>
+      <div class="article-nav-title">关于无人机，你需要知道的都在这里了[转]</div>
+    </a>
   
 </nav>
 
@@ -140,7 +154,7 @@
 
 
   <section id="comments">
-    <div id="ds-thread" class="ds-thread" data-thread-key="2015/11/14/hello-world/" data-title="Hello World" data-url="http://mikit007.github.io/2015/11/14/hello-world/"></div>
+    <div id="ds-thread" class="ds-thread" data-thread-key="2016/01/13/How-to-use-Hexo/" data-title="使用Hexo写blog" data-url="http://mikit007.github.io/2016/01/13/How-to-use-Hexo/"></div>
   </section>
 </section>
       
